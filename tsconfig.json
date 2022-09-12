@@ -19,5 +19,6 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": false
-  }
+  },
+  "include": ["src", "typefix.d.ts"]
 }
