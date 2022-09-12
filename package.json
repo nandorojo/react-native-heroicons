@@ -1,0 +1,50 @@
+{
+  "devDependencies": {
+    "@svgr/core": "^6.2.1",
+    "@types/node": "^18.0.4",
+    "@types/react": "^17.0.2",
+    "react-native-builder-bob": "^0.18.3",
+    "typescript": "^4.7.4"
+  },
+  "name": "@nandorojo/heroicons",
+  "version": "0.0.2",
+  "main": "lib/commonjs/index.js",
+  "react-native": "src/index.ts",
+  "module": "lib/module/index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "prepare": "yarn generate && bob build",
+    "generate": "npx ts-node ./generate/index.ts"
+  },
+  "files": [
+    "src",
+    "lib",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "commonjs",
+      "module",
+      "typescript"
+    ]
+  },
+  "eslintIgnore": [
+    "node_modules/",
+    "lib/"
+  ],
+  "dependencies": {
+    "react-native-svg": "^13.1.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  },
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  }
+}
