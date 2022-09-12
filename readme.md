@@ -1,4 +1,4 @@
-# 🎨 React Native Hero Icons
+# 🫡 React Native Hero Icons
 
 ```ts
 import { HeroOutline } from '@nandorojo/heroicons'
