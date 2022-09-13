@@ -16,11 +16,11 @@ export const Icon = () => <HeroOutline.AcademicCap />
 
 ## About HeroIcons
 
-<a href="https://https://heroicons.com/" target="_blank">
+<a href="https://heroicons.com/" target="_blank">
 <img width="1792" alt="Screen Shot 2022-07-13 at 4 44 18 PM" src="https://user-images.githubusercontent.com/13172299/178855403-47b09fd7-df60-4bf0-850e-1d59072a4f35.png">
 </a>
 
-[Heroicons](https://https://heroicons.com/) is an awesome icon set made by the creators of [Tailwind CSS
+[Heroicons](https://heroicons.com/) is an awesome icon set made by the creators of [Tailwind CSS
 ](https://tailwindcss.com). This library exports React Native components for each of its free icons, since their repo only supports React and Vue.
 
 ## Example
