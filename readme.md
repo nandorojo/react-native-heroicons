@@ -24,7 +24,11 @@ export const Icon = () => <HeroOutline.AcademicCap />
 
 ## Example
 
-See the [example snack 🍔](https://snack.expo.dev/@nandorojo/273c1f).
+See the [example snack 🍔](https://snack.expo.dev/@beatgig/hero-icons).
+
+## Inspiration
+
+This is a fork of my similar `iconic` icon set for React Native: https://github.com/nandorojo/react-native-iconic
 
 ## Installation
 
