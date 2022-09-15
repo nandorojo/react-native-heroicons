@@ -3,6 +3,6 @@
 import * as React from "react";
 import Svg, { SvgProps, Path } from "react-native-svg";
 
-const Minus = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true" {...props}><Path strokeLinecap="round" strokeLinejoin="round" d="M19.5 12h-15" /></Svg>;
+const Minus = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true" width="24" height="24" {...props}><Path strokeLinecap="round" strokeLinejoin="round" d="M19.5 12h-15" /></Svg>;
 
 export default Minus;

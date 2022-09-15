@@ -37,6 +37,8 @@ const run = async (name: '20/solid' | '24/outline' | '24/solid') => {
         throw new Error(`missing svg for ${name}/${filename}`)
       }
 
+      const [size] = name.split('/')
+
       const transformed = await transform(
         svg,
         {
@@ -44,7 +46,10 @@ const run = async (name: '20/solid' | '24/outline' | '24/solid') => {
           ref: false,
           expandProps: 'end',
           typescript: true,
-          svgProps: {},
+          svgProps: {
+            width: size,
+            height: size,
+          },
         },
         {
           componentName,
