@@ -103,3 +103,9 @@ Since Heroicons updates their icons somewhat frequently, you may want to import 
 3. Replace the `generate/hero/optimized` folder with the the `optimized` folder from their repository
 4. Run `yarn install` and `yarn prepare`
 5. Commit your changes, and open a PR!
+
+## Why
+
+1. There weren't any answers on [this discussion](https://github.com/tailwindlabs/heroicons/discussions/627) so I decided to make it myself.
+
+PS after building this, I found this [similar library](https://github.com/ecklf/react-native-heroicons) too.
