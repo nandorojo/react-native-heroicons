@@ -57,7 +57,7 @@ Alternatively, you could import the icons individually.
 While method 1 _should_ tree shake since it's configured to use ESM with tree shaking optimizations, this import method is a safer bet if you're concerned about tree shaking.
 
 ```tsx
-import { AcademicCap } form '@nandorojo/heroicons/24/outline'
+import { AcademicCap } from '@nandorojo/heroicons/24/outline'
 
 export const Icon = () => <AcademicCap />
 ```
