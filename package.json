@@ -9,7 +9,7 @@
   "name": "@nandorojo/heroicons",
   "version": "0.0.4",
   "main": "lib/commonjs/index.js",
-  "react-native": "src/index.ts",
+  "react-native": "src/index.tsx",
   "module": "lib/module/index.js",
   "types": "index.d.ts",
   "scripts": {
