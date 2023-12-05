@@ -3,6 +3,6 @@
 import * as React from "react";
 import Svg, { SvgProps, Path } from "react-native-svg";
 
-const ArrowDownLeft = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="24" height="24" {...props}><Path fillRule="evenodd" d="M20.03 3.97a.75.75 0 010 1.06L6.31 18.75h9.44a.75.75 0 010 1.5H4.5a.75.75 0 01-.75-.75V8.25a.75.75 0 011.5 0v9.44L18.97 3.97a.75.75 0 011.06 0z" clipRule="evenodd" /></Svg>;
+const ArrowDownLeft = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" width="24" height="24" {...props}><Path fillRule="evenodd" d="M20.03 3.97a.75.75 0 0 1 0 1.06L6.31 18.75h9.44a.75.75 0 0 1 0 1.5H4.5a.75.75 0 0 1-.75-.75V8.25a.75.75 0 0 1 1.5 0v9.44L18.97 3.97a.75.75 0 0 1 1.06 0Z" clipRule="evenodd" /></Svg>;
 
 export default ArrowDownLeft;
