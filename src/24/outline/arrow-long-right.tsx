@@ -3,6 +3,6 @@
 import * as React from "react";
 import Svg, { SvgProps, Path } from "react-native-svg";
 
-const ArrowLongRight = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true" width="24" height="24" {...props}><Path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></Svg>;
+const ArrowLongRight = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" aria-hidden="true" data-slot="icon" width="24" height="24" {...props}><Path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" /></Svg>;
 
 export default ArrowLongRight;

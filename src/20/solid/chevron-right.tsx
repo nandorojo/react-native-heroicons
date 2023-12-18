@@ -3,6 +3,6 @@
 import * as React from "react";
 import Svg, { SvgProps, Path } from "react-native-svg";
 
-const ChevronRight = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" width="20" height="20" {...props}><Path fillRule="evenodd" d="M7.21 14.77a.75.75 0 0 1 .02-1.06L11.168 10 7.23 6.29a.75.75 0 1 1 1.04-1.08l4.5 4.25a.75.75 0 0 1 0 1.08l-4.5 4.25a.75.75 0 0 1-1.06-.02Z" clipRule="evenodd" /></Svg>;
+const ChevronRight = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" data-slot="icon" width="20" height="20" {...props}><Path stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8.75 5.75 13 10l-4.25 4.25" /></Svg>;
 
 export default ChevronRight;
